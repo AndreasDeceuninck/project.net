@@ -29,3 +29,29 @@ C:\Users\andre\source\repos\project.net\broodjeszaak\obj\Debug\net6.0\refint\bro
 C:\Users\andre\source\repos\project.net\broodjeszaak\obj\Debug\net6.0\broodjeszaak.pdb
 C:\Users\andre\source\repos\project.net\broodjeszaak\obj\Debug\net6.0\broodjeszaak.genruntimeconfig.cache
 C:\Users\andre\source\repos\project.net\broodjeszaak\obj\Debug\net6.0\ref\broodjeszaak.dll
+C:\Users\Bapti\Documents\2.Vives\WEB DEV\Labo\1.PROJECT\Projectwerk.NET\broodjeszaak\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Bapti\Documents\2.Vives\WEB DEV\Labo\1.PROJECT\Projectwerk.NET\broodjeszaak\bin\Debug\net6.0\appsettings.json
+C:\Users\Bapti\Documents\2.Vives\WEB DEV\Labo\1.PROJECT\Projectwerk.NET\broodjeszaak\bin\Debug\net6.0\broodjeszaak.staticwebassets.runtime.json
+C:\Users\Bapti\Documents\2.Vives\WEB DEV\Labo\1.PROJECT\Projectwerk.NET\broodjeszaak\bin\Debug\net6.0\broodjeszaak.exe
+C:\Users\Bapti\Documents\2.Vives\WEB DEV\Labo\1.PROJECT\Projectwerk.NET\broodjeszaak\bin\Debug\net6.0\broodjeszaak.deps.json
+C:\Users\Bapti\Documents\2.Vives\WEB DEV\Labo\1.PROJECT\Projectwerk.NET\broodjeszaak\bin\Debug\net6.0\broodjeszaak.runtimeconfig.json
+C:\Users\Bapti\Documents\2.Vives\WEB DEV\Labo\1.PROJECT\Projectwerk.NET\broodjeszaak\bin\Debug\net6.0\broodjeszaak.dll
+C:\Users\Bapti\Documents\2.Vives\WEB DEV\Labo\1.PROJECT\Projectwerk.NET\broodjeszaak\bin\Debug\net6.0\broodjeszaak.pdb
+C:\Users\Bapti\Documents\2.Vives\WEB DEV\Labo\1.PROJECT\Projectwerk.NET\broodjeszaak\obj\Debug\net6.0\broodjeszaak.csproj.AssemblyReference.cache
+C:\Users\Bapti\Documents\2.Vives\WEB DEV\Labo\1.PROJECT\Projectwerk.NET\broodjeszaak\obj\Debug\net6.0\broodjeszaak.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bapti\Documents\2.Vives\WEB DEV\Labo\1.PROJECT\Projectwerk.NET\broodjeszaak\obj\Debug\net6.0\broodjeszaak.AssemblyInfoInputs.cache
+C:\Users\Bapti\Documents\2.Vives\WEB DEV\Labo\1.PROJECT\Projectwerk.NET\broodjeszaak\obj\Debug\net6.0\broodjeszaak.AssemblyInfo.cs
+C:\Users\Bapti\Documents\2.Vives\WEB DEV\Labo\1.PROJECT\Projectwerk.NET\broodjeszaak\obj\Debug\net6.0\broodjeszaak.csproj.CoreCompileInputs.cache
+C:\Users\Bapti\Documents\2.Vives\WEB DEV\Labo\1.PROJECT\Projectwerk.NET\broodjeszaak\obj\Debug\net6.0\broodjeszaak.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Bapti\Documents\2.Vives\WEB DEV\Labo\1.PROJECT\Projectwerk.NET\broodjeszaak\obj\Debug\net6.0\broodjeszaak.RazorAssemblyInfo.cache
+C:\Users\Bapti\Documents\2.Vives\WEB DEV\Labo\1.PROJECT\Projectwerk.NET\broodjeszaak\obj\Debug\net6.0\broodjeszaak.RazorAssemblyInfo.cs
+C:\Users\Bapti\Documents\2.Vives\WEB DEV\Labo\1.PROJECT\Projectwerk.NET\broodjeszaak\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Bapti\Documents\2.Vives\WEB DEV\Labo\1.PROJECT\Projectwerk.NET\broodjeszaak\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Bapti\Documents\2.Vives\WEB DEV\Labo\1.PROJECT\Projectwerk.NET\broodjeszaak\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Bapti\Documents\2.Vives\WEB DEV\Labo\1.PROJECT\Projectwerk.NET\broodjeszaak\obj\Debug\net6.0\scopedcss\bundle\broodjeszaak.styles.css
+C:\Users\Bapti\Documents\2.Vives\WEB DEV\Labo\1.PROJECT\Projectwerk.NET\broodjeszaak\obj\Debug\net6.0\scopedcss\projectbundle\broodjeszaak.bundle.scp.css
+C:\Users\Bapti\Documents\2.Vives\WEB DEV\Labo\1.PROJECT\Projectwerk.NET\broodjeszaak\obj\Debug\net6.0\broodjeszaak.dll
+C:\Users\Bapti\Documents\2.Vives\WEB DEV\Labo\1.PROJECT\Projectwerk.NET\broodjeszaak\obj\Debug\net6.0\refint\broodjeszaak.dll
+C:\Users\Bapti\Documents\2.Vives\WEB DEV\Labo\1.PROJECT\Projectwerk.NET\broodjeszaak\obj\Debug\net6.0\broodjeszaak.pdb
+C:\Users\Bapti\Documents\2.Vives\WEB DEV\Labo\1.PROJECT\Projectwerk.NET\broodjeszaak\obj\Debug\net6.0\broodjeszaak.genruntimeconfig.cache
+C:\Users\Bapti\Documents\2.Vives\WEB DEV\Labo\1.PROJECT\Projectwerk.NET\broodjeszaak\obj\Debug\net6.0\ref\broodjeszaak.dll

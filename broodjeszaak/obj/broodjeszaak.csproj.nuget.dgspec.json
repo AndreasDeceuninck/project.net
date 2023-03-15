@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andre\\source\\repos\\project.net\\broodjeszaak\\broodjeszaak.csproj": {}
+    "C:\\Users\\Bapti\\Documents\\2.Vives\\WEB DEV\\Labo\\1.PROJECT\\Projectwerk.NET\\broodjeszaak\\broodjeszaak.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andre\\source\\repos\\project.net\\broodjeszaak\\broodjeszaak.csproj": {
+    "C:\\Users\\Bapti\\Documents\\2.Vives\\WEB DEV\\Labo\\1.PROJECT\\Projectwerk.NET\\broodjeszaak\\broodjeszaak.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre\\source\\repos\\project.net\\broodjeszaak\\broodjeszaak.csproj",
+        "projectUniqueName": "C:\\Users\\Bapti\\Documents\\2.Vives\\WEB DEV\\Labo\\1.PROJECT\\Projectwerk.NET\\broodjeszaak\\broodjeszaak.csproj",
         "projectName": "broodjeszaak",
-        "projectPath": "C:\\Users\\andre\\source\\repos\\project.net\\broodjeszaak\\broodjeszaak.csproj",
-        "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andre\\source\\repos\\project.net\\broodjeszaak\\obj\\",
+        "projectPath": "C:\\Users\\Bapti\\Documents\\2.Vives\\WEB DEV\\Labo\\1.PROJECT\\Projectwerk.NET\\broodjeszaak\\broodjeszaak.csproj",
+        "packagesPath": "C:\\Users\\Bapti\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bapti\\Documents\\2.Vives\\WEB DEV\\Labo\\1.PROJECT\\Projectwerk.NET\\broodjeszaak\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Bapti\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -80,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     }
