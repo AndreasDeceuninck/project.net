@@ -17,11 +17,13 @@
 <body>
     <div class="container">
         <div class="jumbotron">
-            <h1>Welcome to my sandwich ordering website!</h1>
-            <p>Choose from my delicious selection of sandwiches and place your order today.</p>
-            <p>
-                <a class="btn btn-primary btn-lg" asp-action="order" role="button">Order now</a>
-            </p>
+            <h1>Wekom op onze broodjeszaak</h1>
+            <form>
+                <input type="text" id="gebruikersnaam"/>
+                <input type="password" id="wachtwoord"/>
+            </form>
+            <button type="button" class="btn btn-primary" id="login">Login</button>
+            <button type="button" class="btn btn-primary" id="registratie">Registratie</button>
         </div>
     </div>
 </body>

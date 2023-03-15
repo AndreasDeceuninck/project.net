@@ -21,6 +21,18 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\andre\\source\\repos\\project.net\\broodjeszaak\\wwwroot\\images\\Bicky.jpeg",
+      "PackagePath": "staticwebassets\\images\\Bicky.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\andre\\source\\repos\\project.net\\broodjeszaak\\wwwroot\\images\\Boulet.jpeg",
+      "PackagePath": "staticwebassets\\images\\Boulet.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\andre\\source\\repos\\project.net\\broodjeszaak\\wwwroot\\images\\Zalm.jpeg",
+      "PackagePath": "staticwebassets\\images\\Zalm.jpeg"
+    },
+    {
       "Id": "C:\\Users\\andre\\source\\repos\\project.net\\broodjeszaak\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
