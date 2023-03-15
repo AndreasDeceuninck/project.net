@@ -1,4 +1,10 @@
 {
-  "ExpandedNodes": [],
+  "ExpandedNodes": [
+    "",
+    "\\broodjeszaak",
+    "\\broodjeszaak\\Views",
+    "\\broodjeszaak\\Views\\Home"
+  ],
+  "SelectedNode": "\\broodjeszaak\\Views\\Home\\ListOrders.cshtml",
   "PreviewInSolutionExplorer": false
 }

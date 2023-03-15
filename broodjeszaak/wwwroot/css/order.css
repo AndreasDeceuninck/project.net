@@ -1,0 +1,59 @@
+.cart-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+.thumbnail {
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.thumbnail:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.thumbnail img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.broodje {
+    margin-bottom: 20px;
+}
+
+.broodje h3 {
+    margin-top: 0;
+}
+
+.broodje ul {
+    padding-left: 20px;
+}
+
+.broodje input[type="number"] {
+    width: 60px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.broodje label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.prijs {
+    font-size: 18px;
+    font-weight: bold;
+    color: #d9534f;
+}
+
+.bestel-button {
+    display: block;
+    margin-top: 20px;
+}
+
+h1 {
+    color: red;
+}

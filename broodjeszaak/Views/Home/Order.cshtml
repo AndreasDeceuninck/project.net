@@ -1,0 +1,98 @@
+@model broodjeszaak.Models.Order;
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order Page</title>
+
+    <!-- Latest compiled and minified CSS bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="~/css/order.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Order Page</h1>
+        <form method="post" asp-action="order">
+            <div class="form-group">
+                @*hier dient asp-for om zelf de naam van de variabele in het label in te vullen*@
+                <label asp-for="Naam"></label>
+                <input asp-for="Naam" type="text" class="form-control" />
+                @*hier dient asp-validation-for om de foutmelding te tonen*@
+                <span asp-validation-for="Naam" class="text-danger"></span>
+            </div>
+            <div class="broodjes row">
+                @foreach (var broodje in Model.Broodjes)
+                {
+                <div class="col-sm-6 col-md-4 broodje">
+                    <div class="thumbnail">
+                        <img src="~/images/@(broodje.Key).jpeg" alt="@broodje.Key">
+                        <div class="caption">
+                            <h3>@broodje.Key</h3>
+                            <ul>
+                                @foreach (var ingredient in broodje.Value)
+                                    {
+                                <li>@ingredient</li>
+                                    }
+                            </ul>
+                            <div class="form-group">
+                                <label>Aantal:</label>
+                                @*hier gebruik ik "name" in plaats van "asp-for" omdat ik zo de naam van de variabele kan bepalen*@
+                                <input type="number" name="Aantal@(broodje.Key)" min="0" class="form-control" value="0" />
+                                @{
+                                        switch (broodje.Key)
+                                        {
+                                            case "Bicky":
+                                    <span asp-validation-for="AantalBicky" class="text-danger"></span>
+                                                break;
+                                            case "Boulet":
+                                    <span asp-validation-for="AantalBoulet" class="text-danger"></span>
+                                                break;
+                                            case "Zalm":
+                                    <span asp-validation-for="AantalZalm" class="text-danger"></span>
+                                                break;
+                                        }
+                                }
+                            </div>
+                            <div class="form-group">
+                                <label class="prijs">
+                                    Prijs: €
+                                    @{
+                                            switch (broodje.Key)
+                                            {
+                                                case "Bicky":
+                                        @Model.BickyPrice
+                                                    break;
+                                                case "Boulet":
+                                        @Model.BouletPrice
+                                                    break;
+                                                case "Zalm":
+                                        @Model.ZalmPrice
+                                                    break;
+                                            }
+                                    }
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                }
+            </div>
+            <br />
+            <input type="submit" value="Bestel" class="btn btn-primary bestel-button" />
+        </form>
+        <a asp-action="ListOrders" class="cart-button btn btn-info">
+            <span class="glyphicon glyphicon-shopping-cart"></span> Winkelmandje
+        </a>
+    </div>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>

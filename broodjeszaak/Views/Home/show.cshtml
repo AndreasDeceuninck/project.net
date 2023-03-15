@@ -1,0 +1,134 @@
+@model broodjeszaak.Models.Order;
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order Page</title>
+
+    <!-- Latest compiled and minified CSS bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/show.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Je hebt zonet het volgende besteld:</h1>
+            </div>
+            <div class="col-md-12">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Naam van de klant</th>
+                            <th>Broodjes</th>
+                            <th>Aantal</th>
+                            <th>ingrediënten</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                @if((Model.AantalBicky == 0) && (Model.AantalBoulet == 0) && (Model.AantalZalm == 0))
+                                {
+
+                                }
+
+                                else
+                                {
+                                @Model.Naam
+                                }
+                            </td>
+                            <td>
+                                <table>
+                                    @foreach (var broodje in Model.Broodjes)
+                                    {
+                                        if (Model.GetAantal(broodje.Key) > 0)
+                                        {
+                                    <tr>
+                                        <td>
+                                            @broodje.Key
+                                        </td>
+                                    </tr>
+                                        }
+                                    }
+                                </table>
+                            </td>
+                            <td>
+                                <table>
+                                    @foreach (var broodje in Model.Broodjes)
+                                    {
+                                        if (Model.GetAantal(broodje.Key) > 0)
+                                        {
+                                    <tr>
+                                        <td>
+                                            @Model.GetAantal(broodje.Key)
+                                        </td>
+                                    </tr>
+                                        }
+                                    }
+                                </table>
+                            </td>
+                            <td>
+                                <table>
+                                    @foreach (var broodje in Model.Broodjes)
+                                    {
+                                        if (Model.GetAantal(broodje.Key) > 0)
+                                        {
+                                    <tr>
+                                        <td>
+                                            @{
+                                                        string ingrediënten = "";
+                                                        foreach (var ingrediënt in broodje.Value)
+                                                        {
+                                                            if (ingrediënten != "") ingrediënten += ", ";
+                                                            ingrediënten += ingrediënt;
+                                                        }
+                                                @ingrediënten
+                                            }
+                                        </td>
+                                    </tr>
+                                        }
+                                    }
+                                </table>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h3 class="prijs">
+                    Prijs: € @{
+                        foreach (var broodje in Model.Broodjes)
+                        {
+                            double multiplier;
+                            switch (broodje.Key)
+                            {
+                                case "Bicky":
+                                    multiplier = Model.BickyPrice;
+                                    break;
+                                case "Boulet":
+                                    multiplier = Model.BouletPrice;
+                                    break;
+                                case "Zalm":
+                                    multiplier = Model.ZalmPrice;
+                                    break;
+                                default:
+                                    multiplier = 1;
+                                    break;
+                            }
+                            Model.totaleprijs += Model.GetAantal(broodje.Key) * multiplier;
+                        }
+                        @Model.totaleprijs
+                    }
+                </h3>
+                <div class="btn-container">
+                    <a asp-action="Order" class="btn btn-primary btn-lg active" role="button">Klik hier als je nog iets wil bestellen</a>
+                    <a asp-action="ListOrders" class="btn btn-primary btn-lg active" role="button">Klik hier om alle bestellingen te zien</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

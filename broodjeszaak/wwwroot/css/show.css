@@ -1,0 +1,16 @@
+body {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.prijs {
+    color: red;
+    font-weight: bold;
+}
